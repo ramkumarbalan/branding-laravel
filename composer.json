@@ -1,0 +1,25 @@
+{
+    "name": "almatar/branding",
+    "description": "Multi branding package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Amira Nasrullah Mohamed",
+            "email": "amira.nasrullah@almtar.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "guzzlehttp/psr7": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Almatar\\Branding\\": "src/"
+        }
+    },
+    "config": {
+        "platform": {
+            "ext-mongo": "1.6.16"
+        }
+    }
+}
